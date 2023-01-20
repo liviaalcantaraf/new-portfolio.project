@@ -292,3 +292,20 @@ transition: 0.45s ease-in-out;
 }
 
 
+.contact {
+
+    background: var(--secong-bg-color);
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+align-items: center;
+gap: 2.5rem;
+
+}
+
+.contact-text h4 {
+    color: var(--text-color);
+    margin: 18px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
