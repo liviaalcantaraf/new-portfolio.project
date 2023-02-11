@@ -329,6 +329,14 @@ line-height: 1;
 
 }
 
+.contact-text h4 i {
+   font-size: 22px;
+   position: relative;
+   right: 5px;
+   top: 2px;
+}
+
+
 .list {
     margin-bottom: 2.8rem;
 }
@@ -364,6 +372,10 @@ margin-right: 15px;
 transition: all .45s ease;
 
 
+}
+
+.contact-icons i:hover {
+    background: radial-gradient(939px at 0.7% 2.4%, rgb(116, 106, 255) 0%, rgb(221, 221, 221) 100.2%);
 }
 
 
@@ -481,6 +493,9 @@ transition: all .45s ease;
 
 .navlist.open {
     top: 100%;
+}
+.button {
+    margin-top: 200px;
 }
 
 
