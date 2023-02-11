@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Be Vietnam Pro", sans-serif;
 list-style: none;
 scroll-behavior: smooth;
 }
@@ -49,10 +49,12 @@ a {
 
 .logo {
     color: var(--text-color);
-    font-size: 35px;
+    font-size:30px;
     font-weight: 700;
     letter-spacing: 1px;
     text-decoration: none;
+    position: relative;
+    right: 300px
 }
 
 .navlist {
@@ -78,7 +80,7 @@ a {
     color: var(--main-color);
 }
 
-bx bx-menu {
+#menu-icon {
     font-size: 35px;
     color: var(--text-color);
     z-index: 10001;
@@ -292,14 +294,12 @@ transition: 0.45s ease-in-out;
 }
 
 
-.contact {
-
-background: var(--secong-bg-color);
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-align-items: center;
-gap: 2.5rem;
-
+.contact{
+    background: var(--second-bg-color);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2.5rem;
 }
 
 .contact-text h4 {
